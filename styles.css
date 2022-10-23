@@ -127,17 +127,10 @@ html {
   color: #fff;
 }
 
-body {
-  display: flex;
-  position: absolute;
-}
-
 main {
-  position: relative;
   width: 1440px;
   height: 1000px;
   background: #141b1c;
-  margin: auto;
   display: flex;
 }
 
