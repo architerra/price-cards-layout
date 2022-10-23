@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap");
 .price-card {
-  position: absolute;
+  position: relative;
   width: 380px;
   height: 770px;
   display: flex;
@@ -94,11 +94,6 @@ h4 {
   margin-right: 22px;
 }
 
-.first-card {
-  right: 928px;
-  top: 115px;
-  bottom: 115px;
-}
 .first-card__price {
   background-color: #5bb189;
 }
@@ -107,9 +102,7 @@ h4 {
 }
 
 .second-card {
-  right: 530px;
-  top: 115px;
-  bottom: 115px;
+  margin: 0 18px 0 18px;
 }
 .second-card__price {
   background-color: #3a6ba5;
@@ -118,11 +111,6 @@ h4 {
   background-color: #3a6ba5;
 }
 
-.third-card {
-  right: 132px;
-  top: 115px;
-  bottom: 115px;
-}
 .third-card__price {
   background-color: #ec632a;
 }
@@ -147,9 +135,16 @@ body {
 main {
   position: relative;
   width: 1440px;
-  height: 1000px;
+  height: 100%;
   background: #141b1c;
   margin: auto;
+  display: flex;
+}
+
+.container {
+  display: flex;
+  margin: auto;
+  height: 770px;
 }
 
 /*# sourceMappingURL=styles.css.map */

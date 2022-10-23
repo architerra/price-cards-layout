@@ -22,7 +22,14 @@ body {
 main {
   position: relative;
   width: 1440px;
-  height: 1000px;
+  height: 100%;
   background: #141b1c;
   margin: auto;
+  display: flex;
+}
+
+.container {
+  display: flex;
+  margin: auto;
+  height: 770px;
 }
