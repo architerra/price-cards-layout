@@ -129,7 +129,7 @@ html {
 
 main {
   width: 1440px;
-  max-height: 1000px;
+  height: 900px;
   background: #141b1c;
   display: flex;
 }
