@@ -106,7 +106,6 @@ h4 {
 }
 .second-card__price {
   background-color: #3a6ba5;
-  margin-top: 2px;
 }
 .second-card__order-btn {
   background-color: #3a6ba5;
@@ -114,7 +113,6 @@ h4 {
 
 .third-card__price {
   background-color: #ec632a;
-  margin-top: 2px;
 }
 .third-card__order-btn {
   background-color: #ec632a;
@@ -129,10 +127,15 @@ html {
   color: #fff;
 }
 
+body {
+  display: flex;
+}
+
 main {
   width: 1440px;
   height: 900px;
   background: #141b1c;
+  margin: auto;
   display: flex;
 }
 

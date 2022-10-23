@@ -15,16 +15,14 @@ html {
 }
 
 body {
-  // display: flex;
-  // position: absolute;
+  display: flex;
 }
 
 main {
-  // position: relative;
   width: 1440px;
-  height: 900px;
+  height: 900px; // должно быть 1000 - тест
   background: #141b1c;
-  // margin: auto;
+  margin: auto;
   display: flex;
 }
 

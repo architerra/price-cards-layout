@@ -1,11 +1,7 @@
 .third-card {
-  //   right: 132px;
-  //   top: 115px;
-  //   bottom: 115px;
-
   &__price {
     background-color: $third-card-color;
-    margin-top: 2px;
+    // margin-top: 2px; для теста
   }
 
   &__order-btn {
