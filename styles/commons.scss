@@ -7,6 +7,21 @@
   align-items: center;
   padding-top: 33px;
   background-color: $card-primary-color;
+  overflow: hidden;
+
+  &__badge {
+    position: absolute;
+    background: #dc3f45;
+    height: 25px;
+    width: 147px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 25px;
+    left: 264px;
+    top: 31px;
+    transform: rotate(45deg);
+    text-align: center;
+  }
 
   &__title {
     height: 64px;
@@ -26,6 +41,7 @@
 
   &__description {
     width: 328px;
+    margin: 0;
     font-weight: 300;
     font-size: 15px;
     line-height: 18px;
@@ -35,6 +51,7 @@
   &__options-list {
     width: 380px;
     margin-top: 40px;
+    margin-bottom: 39px;
     list-style: none;
     padding: 0;
   }

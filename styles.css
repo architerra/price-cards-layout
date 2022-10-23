@@ -8,6 +8,20 @@
   align-items: center;
   padding-top: 33px;
   background-color: #334247;
+  overflow: hidden;
+}
+.price-card__badge {
+  position: absolute;
+  background: #dc3f45;
+  height: 25px;
+  width: 147px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 25px;
+  left: 264px;
+  top: 31px;
+  transform: rotate(45deg);
+  text-align: center;
 }
 .price-card__title {
   height: 64px;
@@ -25,6 +39,7 @@
 }
 .price-card__description {
   width: 328px;
+  margin: 0;
   font-weight: 300;
   font-size: 15px;
   line-height: 18px;
@@ -33,6 +48,7 @@
 .price-card__options-list {
   width: 380px;
   margin-top: 40px;
+  margin-bottom: 39px;
   list-style: none;
   padding: 0;
 }
