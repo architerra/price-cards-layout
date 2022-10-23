@@ -25,7 +25,6 @@
 }
 .price-card__title {
   height: 64px;
-  margin-bottom: 33px;
 }
 .price-card__price {
   width: 380px;
@@ -96,6 +95,7 @@ h4 {
 
 .first-card__price {
   background-color: #5bb189;
+  margin-bottom: 33px;
 }
 .first-card__order-btn {
   background-color: #5bb189;
@@ -106,6 +106,7 @@ h4 {
 }
 .second-card__price {
   background-color: #3a6ba5;
+  margin-bottom: 31px;
 }
 .second-card__order-btn {
   background-color: #3a6ba5;
@@ -113,6 +114,7 @@ h4 {
 
 .third-card__price {
   background-color: #ec632a;
+  margin-bottom: 31px;
 }
 .third-card__order-btn {
   background-color: #ec632a;
