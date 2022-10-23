@@ -1,0 +1,13 @@
+.second-card {
+  right: 530px;
+  top: 115px;
+  bottom: 115px;
+
+  &__price {
+    background-color: $second-card-color;
+  }
+
+  &__order-btn {
+    background-color: $second-card-color;
+  }
+}

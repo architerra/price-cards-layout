@@ -1,0 +1,13 @@
+.first-card {
+  right: 928px;
+  top: 115px;
+  bottom: 115px;
+
+  &__price {
+    background-color: $first-card-color;
+  }
+
+  &__order-btn {
+    background-color: $first-card-color;
+  }
+}

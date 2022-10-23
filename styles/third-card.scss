@@ -1,0 +1,13 @@
+.third-card {
+  right: 132px;
+  top: 115px;
+  bottom: 115px;
+
+  &__price {
+    background-color: $third-card-color;
+  }
+
+  &__order-btn {
+    background-color: $third-card-color;
+  }
+}
