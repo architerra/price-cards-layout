@@ -1,5 +1,4 @@
 .price-card {
-  //   position: absolute;
   position: relative;
   width: 380px;
   height: 770px;
@@ -9,6 +8,10 @@
   padding-top: 33px;
   background-color: $card-primary-color;
   overflow: hidden;
+
+  &_second {
+    margin: 0 18px 0 18px;
+  }
 
   &__badge {
     position: absolute;
@@ -41,6 +44,18 @@
 
     &_first {
       background-color: $first-card-color;
+    }
+
+    &_second {
+      background-color: $second-card-color;
+      // для теста
+      margin-top: 2px;
+    }
+
+    &_third {
+      background-color: $third-card-color;
+      //   для теста
+      margin-top: 2px;
     }
   }
 
@@ -86,6 +101,14 @@
 
     &_first {
       background-color: $first-card-color;
+    }
+
+    &_second {
+      background-color: $second-card-color;
+    }
+
+    &_third {
+      background-color: $third-card-color;
     }
   }
 }

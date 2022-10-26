@@ -31,6 +31,9 @@ h4 {
   background-color: #334247;
   overflow: hidden;
 }
+.price-card_second {
+  margin: 0 18px 0 18px;
+}
 .price-card__badge {
   position: absolute;
   background: #dc3f45;
@@ -60,6 +63,14 @@ h4 {
 }
 .price-card__price_first {
   background-color: #5bb189;
+}
+.price-card__price_second {
+  background-color: #3a6ba5;
+  margin-top: 2px;
+}
+.price-card__price_third {
+  background-color: #ec632a;
+  margin-top: 2px;
 }
 .price-card__description {
   width: 328px;
@@ -99,21 +110,10 @@ h4 {
 .price-card__order-btn_first {
   background-color: #5bb189;
 }
-
-.second-card {
-  margin: 0 18px 0 18px;
-}
-.second-card__price {
+.price-card__order-btn_second {
   background-color: #3a6ba5;
 }
-.second-card__order-btn {
-  background-color: #3a6ba5;
-}
-
-.third-card__price {
-  background-color: #ec632a;
-}
-.third-card__order-btn {
+.price-card__order-btn_third {
   background-color: #ec632a;
 }
 
