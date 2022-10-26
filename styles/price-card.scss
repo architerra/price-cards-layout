@@ -1,0 +1,91 @@
+.price-card {
+  //   position: absolute;
+  position: relative;
+  width: 380px;
+  height: 770px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 33px;
+  background-color: $card-primary-color;
+  overflow: hidden;
+
+  &__badge {
+    position: absolute;
+    background: #dc3f45;
+    height: 25px;
+    width: 147px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 25px;
+    left: 264px;
+    top: 31px;
+    transform: rotate(45deg);
+    text-align: center;
+  }
+
+  &__title {
+    height: 64px;
+    margin-bottom: 33px;
+  }
+
+  &__price {
+    width: 380px;
+    height: 105px;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 55px;
+    font-weight: 700;
+
+    &_first {
+      background-color: $first-card-color;
+    }
+  }
+
+  &__description {
+    width: 328px;
+    margin: 0;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+  }
+
+  &__options-list {
+    width: 380px;
+    margin-top: 40px;
+    margin-bottom: 39px;
+    list-style: none;
+    padding: 0;
+  }
+
+  &__options-item {
+    height: 50px;
+
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 50px;
+
+    &:nth-child(odd) {
+      background-color: $card-secondary-color;
+    }
+  }
+
+  &__order-btn {
+    width: 155px;
+    height: 40px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    border-radius: 20px;
+    border: none;
+    text-align: center;
+    color: #fff;
+
+    &_first {
+      background-color: $first-card-color;
+    }
+  }
+}

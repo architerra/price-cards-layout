@@ -1,4 +1,25 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap");
+h2 {
+  margin: 0;
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 43px;
+  text-align: center;
+}
+
+h4 {
+  margin: 0;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+}
+
+[alt=checkmark] {
+  margin-left: 22px;
+  margin-right: 22px;
+}
+
 .price-card {
   position: relative;
   width: 380px;
@@ -37,6 +58,9 @@
   font-size: 55px;
   font-weight: 700;
 }
+.price-card__price_first {
+  background-color: #5bb189;
+}
 .price-card__description {
   width: 328px;
   margin: 0;
@@ -72,32 +96,7 @@
   text-align: center;
   color: #fff;
 }
-
-h2 {
-  margin: 0;
-  font-weight: 700;
-  font-size: 35px;
-  line-height: 43px;
-  text-align: center;
-}
-
-h4 {
-  margin: 0;
-  font-weight: 300;
-  font-size: 20px;
-  line-height: 24px;
-  text-align: center;
-}
-
-[alt=checkmark] {
-  margin-left: 22px;
-  margin-right: 22px;
-}
-
-.first-card__price {
-  background-color: #5bb189;
-}
-.first-card__order-btn {
+.price-card__order-btn_first {
   background-color: #5bb189;
 }
 
@@ -127,22 +126,16 @@ html {
   color: #fff;
 }
 
-body {
-  display: flex;
-}
-
 main {
-  width: 1440px;
-  height: 900px;
+  width: 100vw;
+  height: 100vh;
   background: #141b1c;
-  margin: auto;
   display: flex;
 }
 
 .container {
   display: flex;
   margin: auto;
-  height: 770px;
 }
 
 /*# sourceMappingURL=styles.css.map */
