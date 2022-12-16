@@ -20,6 +20,17 @@ h4 {
   margin-right: 22px;
 }
 
+.checkmark {
+  width: 16px;
+  height: 13px;
+  margin-left: 22px;
+  margin-right: 22px;
+}
+
+.checkmark_green {
+  background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_green.png);
+}
+
 .price-card {
   position: relative;
   width: 380px;
